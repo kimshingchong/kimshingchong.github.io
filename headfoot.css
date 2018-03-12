@@ -1,0 +1,151 @@
+/* universal font */
+html
+{ 
+ font-family: 'Roboto', sans-serif;
+}
+
+/* Header and foooter specs */
+body
+{
+ background-color: lightgreen;
+ padding:0;
+ margin: 0;
+ height: 100%;
+}
+
+.head
+{
+ background-color: #1abc9c;
+}
+
+.head h1
+{
+ margin-top: 0;
+ margin-bottom: 0;
+ color: white;
+ text-align: center;
+ padding-left: 40px;
+ padding-right: 40px;
+}
+
+.nav
+{
+ background-color: black;
+ list-style-type: none;
+ margin: 0;
+ padding:0;
+ text-align: center;
+ ;
+}
+
+.nav li
+{
+ display: inline;
+}
+
+.nav a 
+{
+ color: white;
+ background-color: black;
+ overflow: hidden;
+ display: inline-block;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+.nav a:hover
+{
+ color: black;
+ background-color: white;
+}
+.foot
+{
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+ background-color: #1abc9c;
+ border: 1px solid black;
+ border-width: 1px 0;
+}
+.foot p
+{
+ padding-left: 15px;
+ padding-right: 15px;
+ text-align:center;
+ color: white;
+}
+ /*main.html*/
+.container
+{
+ min-height: 100%;
+ position: relative;
+}
+.main p
+{ 
+ text-align: center;
+ font-size: 20px;
+ overflow: 0;
+ padding-left:450px;
+ padding-right:450px;
+ color:default;
+ line-height: .95;
+}
+.main a
+{
+ text-decoration:none;
+}
+.main img
+{
+ border: 1px solid grey;
+ width: 175px;
+ height: 300px;
+ float: center;
+ margin-bottom: 0;
+}
+/*Achievement Window*/
+.achmain
+{
+ padding-left: 500px;
+ padding-right: 500px;
+ margin-bottom: 20px;
+}
+/*Profile*/
+.profile
+{
+ padding-left: 375px;
+ padding-right: 370px;
+}
+.profile img
+{
+  float: left;
+}
+.text
+{
+ padding-left: 330px;
+ line-height: 1.6;
+}
+/*Gallery*/
+.pics p
+{
+ text-align: center;
+}
+.pics p img
+{
+ border: 1px solid-black;
+}
+.border
+{
+ border: 1px solid-black;
+}
+/*Contact*/
+.links
+{
+ text-align: center;
+}
+.link a
+{
+ text-decoration: none;
+}
